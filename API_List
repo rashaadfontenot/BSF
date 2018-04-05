@@ -10,3 +10,15 @@ Bin_303 - https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/data
 Bin_401 - https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/4d9beded-33d5-47d9-b72f-437d821352c6/rows?key=4j09kVjcSAVFYcJK7UJeMd8%2BTtH83IEv0uZB8JXOm3s5CxjFPDrgxkJFQMQMi8mOBfXQZYinR3gORkCSEcT2tQ%3D%3D
 Bin_402 - https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/b5a675d4-8190-42ac-828c-1c626bda8dc3/rows?key=IWIKyfkXzU%2BRxX3x7C3wW4k1TXYFQERhWOKiZo1LiXLGmXzwkKTDrf4D%2FDPvGeMduMfqX2IWSDVmrgtLve1UEA%3D%3D
 Bin_403 - https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/1ac03175-9705-4f11-bb79-349ff6acfa9d/rows?key=9umHsHmDIICeZQtKbcsgr%2FRVV%2BWpSODqACaYTK9uFb2JV81DgsDszfCSVqcJFs7V4lJ0gmqaXebTJOpdiWy%2B0g%3D%3D
+
+
+
+IoT Hub Creditials
+
+HostName:
+BlackSoldierFly.azure-devices.net
+
+SharedAccessKey:
+
+Primary Key - xOiEuZJhNRslxtkio3guAyoVAkGtBRKHElBvh5xuF1I=
+Connection String - Primary Key - HostName=BlackSoldierFly.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xOiEuZJhNRslxtkio3guAyoVAkGtBRKHElBvh5xuF1I=
