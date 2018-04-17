@@ -21,4 +21,8 @@ BlackSoldierFly.azure-devices.net
 SharedAccessKey:
 
 Primary Key - xOiEuZJhNRslxtkio3guAyoVAkGtBRKHElBvh5xuF1I=
-Connection String - Primary Key - HostName=BlackSoldierFly.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xOiEuZJhNRslxtkio3guAyoVAkGtBRKHElBvh5xuF1I=
+Connection String - Primary Key
+HostName=BlackSoldierFly.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xOiEuZJhNRslxtkio3guAyoVAkGtBRKHElBvh5xuF1I=
+
+Device connection string
+HostName=BlackSoldierFly.azure-devices.net;DeviceId=Bin_101;SharedAccessKey=wJO8gFb0EMDVRnKrgYzZ6EFO4svERX9BlJ4UenTWDWA=
