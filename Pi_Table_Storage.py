@@ -32,10 +32,8 @@ while True:
     rowkey = random.random()
     # read and print out humidity and temperature from sensor
     humidity,temp = dht.read_retry(SENSOR, PIN)
-    #humidity = random.randrange(25, 84)
-    #temp = random.randrange(34, 99)
+    temp = temp * 9/5.0 + 32
     print('Temp={0:0.1f}*F Humidity={1:0.1f}%'.format(temp, humidity))
-    print(rowkey)
 
     # ensure that timestamp string is formatted properly
     now = datetime.strftime(datetime.now(), "%Y-%m-%dT%H:%M:%S%Z")
@@ -43,4 +41,4 @@ while True:
     # create entity object
     data = {'PartitionKey': Bin_ID, 'RowKey': str(rowkey), 'temperature': temp, 'humidity': humidity, 'datetime': now}
     table_service.insert_entity('NewUrbanFarmTable', data)
-    time.sleep(1)
+    time.sleep(30)
