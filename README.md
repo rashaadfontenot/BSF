@@ -19,7 +19,6 @@ cd ..
 
 *Install Azure Module  
 sudo pip3 install azure  
-cd ..  
 
 *Clone BSF Folder  
 git clone https://github.com/rashaadfontenot/BSF.git  
