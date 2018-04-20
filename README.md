@@ -1,4 +1,5 @@
 *Flash Memory Card with Raspian Disk Image
+(Instruction Here https://www.raspberrypi.org/documentation/installation/installing-images/)  
 Insert memory card
 Open Etcher
 
@@ -17,7 +18,7 @@ cd Adafruit_Python_DHT
 sudo python3 setup.py install  
 cd ..  
 
-*Install Azure Module  
+*Install Azure Module (You may need to run this command multiple times for all packages to install)  
 sudo pip3 install azure  
 
 *Clone BSF Folder  
