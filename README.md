@@ -29,7 +29,7 @@ Update Bin number
 
 *Run Program at Startup on PI  
 sudo nano /etc/rc.local  
-sudo python /home/pi/Pi_Table_Storage.py &  
+sudo python3 /home/pi/BSF/Pi_Table_Storage.py &  
 sudo reboot  
 
 Check to see if data is uploading
