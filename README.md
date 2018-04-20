@@ -30,7 +30,9 @@ Save file
 
 *Run Program at Startup on PI  
 sudo nano /etc/rc.local  
+Add the below command in the line above exit 0  
 sudo python3 /home/pi/BSF/Pi_Table_Storage.py &  
+Exit and Save
 sudo reboot  
 
 Check to see if data is uploading
