@@ -1,56 +1,35 @@
-# BSF
-Code For Black Soldier Fly Project
-
-
-Reference this https://github.com/adafruit/Adafruit_Python_DHT to get library
-
-
-Python IOT Hub 
-https://github.com/Azure-Samples/iot-hub-python-raspberrypi-client-app
-
-
-Download Azure IOT managment
-pip install azure-mgmt-iothub
-
-
-Install Linux SDK on Pi's
-https://github.com/Azure/azure-iot-sdk-python/blob/master/doc/python-devbox-setup.md
-
-Follow Steps
-https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-python-getstarted
-
 *Flash Memory Card with Raspian Disk Image
 Insert memory card
 Open Etcher
 
-*Update Pi local preferences 
-
-PI Menu > Preferences > Raspberry PI Configuration > Localisation > Update all categories to US
-
-Click OK, Reboot PI
+*Update Pi local preferences  
+PI Menu > Preferences > Raspberry PI Configuration > Localisation > Update all categories to US  
+Click OK, Reboot PI  
 
 *Connect to Wifi
 
-*Download Adafruit Python Sensor Library
+*Download Adafruit Python Sensor Library  
+Open Terminal  
+sudo apt-get update  
+sudo apt-get install python3-dev  
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git  
+cd Adafruit_Python_DHT  
+sudo python3 setup.py install  
+cd ..  
 
-Open Terminal
+*Install Azure Module  
+sudo pip3 install azure  
+cd ..  
 
-sudo apt-get update
+*Clone BSF Folder  
+git clone https://github.com/rashaadfontenot/BSF.git  
 
-sudo apt-get install python3-dev
+Open file Pi_Table_Storage.py  
+Update Bin number  
 
-git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+*Run Program at Startup on PI  
+sudo nano /etc/rc.local  
+sudo python /home/pi/Pi_Table_Storage.py &  
+sudo reboot  
 
-cd Adafruit_Python_DHT
-
-sudo python3 setup.py install
-
-*Install Azure Module
-
-sudo pip3 install azure
-
-
-*Clone BSF Folder
-
-git clone https://github.com/rashaadfontenot/BSF.git
-
+Check to see if data is uploading
