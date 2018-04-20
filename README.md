@@ -47,3 +47,4 @@ cd ..
 *Clone BSF Folder
 git clone https://github.com/rashaadfontenot/BSF.git
 
+.
