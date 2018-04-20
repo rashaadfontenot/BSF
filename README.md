@@ -25,7 +25,7 @@ sudo pip3 install azure
 git clone https://github.com/rashaadfontenot/BSF.git  
 
 Open file Pi_Table_Storage.py  
-Update BIN_ID to current Bin Number
+Update BIN_ID to current Bin Number  
 Save file
 
 *Run Program at Startup on PI  
