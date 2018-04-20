@@ -1,5 +1,5 @@
-*Flash Memory Card with Raspian Disk Image
-(Instruction Here https://www.raspberrypi.org/documentation/installation/installing-images/)  
+*Flash Memory Card with Raspian Disk Image  
+(Instruction Here: https://www.raspberrypi.org/documentation/installation/installing-images/)  
 Insert memory card
 Open Etcher
 
@@ -25,7 +25,8 @@ sudo pip3 install azure
 git clone https://github.com/rashaadfontenot/BSF.git  
 
 Open file Pi_Table_Storage.py  
-Update Bin number  
+Update BIN_ID to current Bin Number
+Save file
 
 *Run Program at Startup on PI  
 sudo nano /etc/rc.local  
