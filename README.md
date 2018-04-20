@@ -49,13 +49,6 @@ sudo python3 setup.py install
 
 sudo pip3 install azure
 
-git clone git://github.com/Azure/azure-sdk-for-python.git
-
-cd azure-sdk-for-python
-
-sudo python3 setup.py install
-
-cd ..
 
 *Clone BSF Folder
 
