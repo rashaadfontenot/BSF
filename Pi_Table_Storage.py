@@ -20,7 +20,7 @@ SENSOR = dht.DHT22
 PIN = 4			
 
 # Connect to Azure Table service
-table_service = TableService(account_name='urbanfarmingbsf', account_key='cXEulUA2YXEq0WEkGKvhTAZ2N64BUqBQ6MNMKxhrHpd2DfqnMVqi4p+ji2CbeY9WzQFTxs+umzLKa4d1Y6hVxA==')
+table_service = TableService(account_name='urbanfarmingbsf', account_key='KEYREMOVED')
 
 # Connect to Azure Cosmos DB
 cosmoDB_service = TableService(connection_string='DefaultEndpointsProtocol=https;AccountName=urbanfamingbsf;AccountKey=Bp31zHqd3KFn44Y3doAfXLlAZjLal8mSzjGEtRRarP0z5AfXWI8VuPfSPvq0thTc1JQvUKx07mMkQz0sF1WNVw==;TableEndpoint=https://urbanfamingbsf.table.cosmosdb.azure.com:443/;')
