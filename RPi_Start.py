@@ -16,7 +16,7 @@ PIN = 4
 
 # REST API endpoint, given to you when you create an API streaming dataset
 # Will be of the format: https://api.powerbi.com/beta/<tenant id>/datasets/< dataset id>/rows?key=<key id>
-REST_API_URL = "https://api.powerbi.com/beta/72f988bf-86f1-41af-91ab-2d7cd011db47/datasets/dd262ed2-b765-40c0-a268-494738d29fa4/rows?key=%2B%2FXGXbA%2FThAaTvTZBn%2F%2BsB2IvIjuoyIpIIQkGFQ2wivnJwZBDhRYd8plWs7Su1IIkbL4GwYtLJbPZRzGz84f7g%3D%3D"
+REST_API_URL = "API"
 
 # Gather temperature and sensor data and push to Power BI REST API
 while True:
